@@ -1,17 +1,16 @@
 Feature: Name of the feature file
 
   This is the description that i am adding to the feature file
-
-  Scenario: The name of scenario
+  Background: The name of background
     Given I open the browser
     And I am on the google homepage
+
+  Scenario: The name of scenario
     When I search for "amazon" on google
     Then I should see "amazon" on the results
     Then I close the browser
 
   Scenario: The name of second scenario
-    Given I open the browser
-    And I am on the google homepage
-    When I search for "emir" on google
-    Then I should see "emir" on the results
+    When I search for "shaden" on google
+    Then I should see "shaden" on the results
     Then I close the browser

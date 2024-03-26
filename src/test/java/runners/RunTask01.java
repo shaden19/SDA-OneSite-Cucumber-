@@ -7,9 +7,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         glue = "stepdefinitions" ,
-        features = "src/test/resources/features/homeWorks/Task03.feature",
-        dryRun = false
-)
-public class Runner {
-}
+        features = "src/test/resources/features/Task01.feature",
+        tags = "@samsung and @cucumber",
+        dryRun = true
 
+)
+public class RunTask01 {
+}
